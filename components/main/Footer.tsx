@@ -18,32 +18,39 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
+                    </p> */}
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
+                    </p> */}
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    </p> */}
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
+                    </p> */}
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        <a 
+                            href="https://www.linkedin.com/in/srimanikandan-k-7a00b2146/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex flex-row items-center"
+                        >
+                            {/* <RxDiscordLogo /> */}
+                            <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        </a>
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -64,7 +71,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Srimanikandan K Dev 2025 Inc. All rights reserved
             </div>
         </div>
     </div>
