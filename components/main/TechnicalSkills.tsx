@@ -13,7 +13,7 @@ const skillsData = {
 const TechnicalSkills = () => {
   return (
     <div className="flex flex-col items-center justify-center py-20" id="skills">
-      <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h2 className="text-[40px] font-medium text-center text-gray-200 mb-[35px]">
         Technical Skills
       </h2>
       

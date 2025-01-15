@@ -4,6 +4,8 @@ import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 // import Image from "next/image";
 import TechnicalSkills from "@/components/main/TechnicalSkills";
+import Timeline from '@/components/main/Timeline';
+// Use it in your page/component
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <TechnicalSkills />
+        <Timeline />
         <Encryption />
         <Projects />
       </div>
