@@ -35,12 +35,12 @@ const Timeline = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="min-h-screen bg-transparent p-8"
+      className="min-h-screen bg-transparent p-4 md:p-8"
     >
       <div className="relative max-w-4xl mx-auto">
         {/* Title with floating animation */}
         <motion.h1 
-          className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-center mb-16"
+          className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-center mb-8 md:mb-16"
           initial={{ opacity: 0, y: -50 }}
           animate={{ 
             opacity: 1, 
@@ -60,7 +60,7 @@ const Timeline = () => {
 
         {/* Animated vertical line with gradient glow */}
         <motion.div 
-          className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500"
+          className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500"
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: '100%', opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
@@ -70,7 +70,9 @@ const Timeline = () => {
         {timelineData.map((item, index) => (
           <motion.div 
             key={index} 
-            className={`flex items-center mb-16 ${index % 2 === 0 ? 'flex-row-reverse' : ''}`}
+            className={`flex flex-col md:flex-row items-start md:items-center mb-8 md:mb-16 ${
+              index % 2 === 0 ? 'md:flex-row-reverse' : ''
+            }`}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ 
               opacity: 1, 
@@ -84,19 +86,21 @@ const Timeline = () => {
           >
             {/* Content Container with hover effect */}
             <motion.div 
-              className={`w-1/2 px-8 ${index % 2 === 0 ? 'text-right' : 'text-left'}`}
+              className={`w-full md:w-1/2 pl-16 md:px-8 ${
+                index % 2 === 0 ? 'md:text-right' : 'md:text-left'
+              } text-left`}
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               <motion.h3 
-                className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold mb-2"
+                className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold mb-2"
                 whileHover={{ x: index % 2 === 0 ? -5 : 5 }}
               >
                 {item.title}
               </motion.h3>
               {item.duration && (
                 <motion.div 
-                  className="text-gray-200 text-sm mb-2"
+                  className="text-gray-200 text-xs md:text-sm mb-2"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.2 }}
@@ -105,7 +109,7 @@ const Timeline = () => {
                 </motion.div>
               )}
               <motion.p 
-                className="text-gray-200"
+                className="text-gray-200 text-sm md:text-base"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}
@@ -116,7 +120,7 @@ const Timeline = () => {
 
             {/* Animated circle with pulse effect */}
             <motion.div 
-              className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full z-10"
+              className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 w-3 md:w-4 h-3 md:h-4 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full z-10"
               initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ 
@@ -141,11 +145,13 @@ const Timeline = () => {
 
             {/* Year label with hover effect */}
             <motion.div 
-              className={`w-1/2 px-8 ${index % 2 === 0 ? 'text-left' : 'text-right'}`}
+              className={`absolute left-16 md:relative md:left-auto w-auto md:w-1/2 px-2 md:px-8 ${
+                index % 2 === 0 ? 'md:text-left' : 'md:text-right'
+              }`}
               whileHover={{ scale: 1.1 }}
             >
               <motion.div 
-                className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold"
+                className="text-sm md:text-base text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold"
                 whileHover={{ x: index % 2 === 0 ? 5 : -5 }}
               >
                 {item.year}

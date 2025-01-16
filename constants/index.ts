@@ -82,17 +82,10 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/discord.svg",
-    },
+      name: "LinkedIn",
+      src: "/linkedin.png",
+      link: "https://www.linkedin.com/in/srimanikandan-k-7a00b2146/"
+    }
   ];
   
   

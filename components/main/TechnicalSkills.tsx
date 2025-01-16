@@ -7,15 +7,15 @@ const skillsData = {
   "CSS/Styling": ["Tailwind CSS", "Bootstrap"],
   "Developer Tools": ["Git", "GitLab", "VS Code", "Visual Studio"],
   "Build Tools": ["Webpack", "Babel", "Vite"],
-  "Architecture": ["Micro Frontend Architecture", "Monolithic"]
+  "Architecture": ["Micro Frontend Architecture", "Monolithic Architecture"]
 };
 
 const TechnicalSkills = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-20" id="skills">
-      <h2 className="text-[40px] font-medium text-center text-gray-200 mb-[35px]">
+    <div className="flex flex-col items-center justify-center py-0" id="skills">
+      {/* <h2 className="text-[40px] font-medium text-center text-gray-200 mb-[35px]">
         Technical Skills
-      </h2>
+      </h2> */}
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-6xl">
         {Object.entries(skillsData).map(([category, skills]) => (
