@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; Srimanikandan K Dev 2025 Inc. All rights reserved
+                &copy; Srimanikandan K Dev 2025 Inc. All rights reserved.
             </div>
         </div>
     </div>
