@@ -11,29 +11,30 @@ interface TimelineItem {
 
 const timelineData: TimelineItem[] = [
   {
-    year: "2017",
-    title: "Saveetha Engineering College",
-    duration: "2017-2021",
-    description: "Pursued Bachelor's in Computer Science Engineering, establishing a strong foundation in programming fundamentals, data structures, and software development principles."
+    "year": "2017",
+    "title": "Saveetha Engineering College",
+    "duration": "2017-2021",
+    "description": "Pursued Bachelor's in Information Technology, where I developed a strong foundation in programming, data structures, algorithms, and software development principles. During this time, I cultivated a passion for front-end development, focusing on creating pixel-perfect UI/UX designs that lay the foundation for my career in building intuitive, high-performance web applications."
   },
   {
-    year: "2021",
-    title: "Software Development Intern",
-    duration: "April - November 2021",
-    description: "Worked as an intern at Orion India Systems, gaining hands-on experience in web development technologies and contributing to real-world projects."
+    "year": "2021",
+    "title": "Software Development Intern (Orion India Ducen Private Limited)",
+    "duration": "April - November 2021",
+    "description": "As a Software Development Intern at Orion India Ducen, I gained hands-on experience working with cutting-edge web technologies, particularly React, to build and optimize front-end solutions. I contributed to multiple real-world projects, refining my ability to develop efficient, scalable user interfaces, and enhancing my skills in responsive design and performance optimization."
   },
   {
-    year: "2022",
-    title: "Associate Trainee",
-    duration: "Nov 2021 - December 2022",
-    description: "Started professional career as an Associate Trainee, focusing on developing and maintaining web applications while learning industry best practices."
+    "year": "2022",
+    "title": "Associate Trainee (Orion India Ducen Private Limited)",
+    "duration": "Nov 2021 - December 2022",
+    "description": "Started my professional journey as an Associate Trainee, where I focused on both front-end and full-stack development. I was involved in the development, maintenance, and optimization of web applications using React. I gained deep experience in writing clean, maintainable code, and implementing UI components that prioritized performance and user experience. My work included addressing API integration challenges and optimizing load times, significantly improving the responsiveness of the applications."
   },
   {
-    year: "2023",
-    title: "Associate Software Engineer",
-    duration: "2022 - Present",
-    description: "Led development of confidential enterprise applications for top-tier clients. Architected and implemented solutions from scratch, achieving 40% performance improvement through optimization. Spearheaded the development of scalable features and mentored junior developers in best practices."
-  },
+    "year": "2022 - 2025",
+    "title": "Associate Software Engineer (Orion India Ducen Private Limited)",
+    "duration": "2022 - Present",
+    "description": "Currently serving as an Associate Software Engineer, I have played a pivotal role in the design and development of scalable, high-performance web applications for top-tier clients, managing critical enterprise-level applications. I’ve been involved in developing features from scratch, focusing on creating a seamless user experience and improving front-end performance. Notably, I optimized API response times by 30%, enhanced the front-end architecture using micro front-end solutions, and implemented performance improvements that resulted in a 40% reduction in load time. Additionally, I have taken the initiative to mentor junior developers, promoting best practices in React development and ensuring the codebase remains efficient and maintainable. My contributions have been integral in delivering projects on time, with a focus on delivering quality code and enhancing overall user satisfaction."
+  }
+  
   // Add more items as needed
 ];
 
