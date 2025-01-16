@@ -1,6 +1,7 @@
-import Encryption from "@/components/main/Encryption";
+// import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
-import Projects from "@/components/main/Projects";
+// import Projects from "@/components/main/Projects";
+// import ContactMe from "@/components/main/ContactMe";
 import Skills from "@/components/main/Skills";
 // import Image from "next/image";
 import TechnicalSkills from "@/components/main/TechnicalSkills";
@@ -14,9 +15,10 @@ export default function Home() {
         <Hero />
         <Skills />
         <TechnicalSkills />
+        {/* <Encryption /> */}
         <Timeline />
-        <Encryption />
-        <Projects />
+        {/* <ContactMe/> */}
+        {/* <Projects /> */}
       </div>
     </main>
   );

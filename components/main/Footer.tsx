@@ -41,31 +41,29 @@ const Footer = () => {
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Twitter</span>    
                     </p> */}
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <a 
-                            href="https://www.linkedin.com/in/srimanikandan-k-7a00b2146/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex flex-row items-center"
-                        >
-                            {/* <RxDiscordLogo /> */}
-                            <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                        </a>
-                    </p>
+                    <a 
+                        href="https://www.linkedin.com/in/srimanikandan-k-7a00b2146/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-row items-center my-[15px] cursor-pointer"
+                    >
+                        <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
+                    </a>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                   {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                      
                         <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
+                    </p> */}
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">srimani605@gmail.com</span>
                     </p>
                 </div>
             </div>

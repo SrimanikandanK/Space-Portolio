@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg md:text-xl text-gray-300 my-5 max-w-[600px] leading-relaxed font-light"
         >
-          I&apos;m a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 font-semibold">Frontend Developer</span> with 3.10+ months of experience, specializing in creating <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500 font-semibold">engaging web experiences</span>. 
+          I&apos;m a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 font-semibold">Frontend Developer</span> with 3 + years of experience, specializing in creating <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500 font-semibold">engaging web experiences</span>. 
           I&apos;ve worked with <span className="text-yellow-400 font-medium">prestigious clients</span> on confidential projects, delivering <span className="text-emerald-400 font-medium">high-quality solutions</span>.
         </motion.p>
         <div className="flex items-center gap-6">
@@ -84,8 +84,9 @@ const HeroContent = () => {
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="p-2 rounded-full bg-[#0077B5]/10 hover:bg-[#0077B5]/30 transition-colors duration-200
-              border border-[#0077B5]/50 hover:border-[#0077B5] group"
+              className="p-2 rounded-full bg-gradient-to-r from-yellow-400/10 to-amber-500/10 
+              hover:from-yellow-400/30 hover:to-amber-500/30 transition-colors duration-200
+              border border-yellow-400/50 hover:border-yellow-400 group"
             >
               <Link 
                 href="https://www.linkedin.com/in/srimanikandan-k-7a00b2146/" 
@@ -105,9 +106,9 @@ const HeroContent = () => {
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="p-2 rounded-full bg-[#333]/10 hover:bg-[#333]/30 transition-colors duration-200
-              border border-[#333]/50 hover:border-[#333] dark:bg-white/10 dark:hover:bg-white/30 
-              dark:border-white/50 dark:hover:border-white group"
+              className="p-2 rounded-full bg-gradient-to-r from-yellow-400/10 to-amber-500/10 
+              hover:from-yellow-400/30 hover:to-amber-500/30 transition-colors duration-200
+              border border-yellow-400/50 hover:border-yellow-400 group"
             >
               <Link 
                 href="https://github.com/SrimanikandanK"
