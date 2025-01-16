@@ -45,7 +45,7 @@ const Timeline = () => {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-transparent p-4 md:p-8"
     >
-      <div className="relative max-w-4xl mx-auto">
+      <div className="relative max-w-4xl mx-auto" id="journey">
         {/* Title with floating animation */}
         <motion.h1 
           className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'

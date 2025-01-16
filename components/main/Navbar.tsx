@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between w-full max-w-[300px] h-auto border border-[#7042f861] bg-[#0300145e] px-3 sm:px-[20px] py-[10px] rounded-full text-gray-200 text-sm sm:text-base">
             <a href="#about-me" className="cursor-pointer">About</a>
             <a href="#skills" className="cursor-pointer">Skills</a>
-            <a href="#projects" className="cursor-pointer">Projects</a>
+            <a href="#journey" className="cursor-pointer">Journey</a>
           </div>
         </div>
 
