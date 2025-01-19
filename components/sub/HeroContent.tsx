@@ -52,7 +52,7 @@ const HeroContent = () => {
         <div className="flex items-center gap-6">
           <motion.a
             variants={slideInFromLeft(1)}
-            href="https://drive.google.com/file/d/12OuBEAg8DkIU3qSIiukf17XARydzuGdx/view?usp=sharing"
+            href="https://drive.google.com/file/d/1O5gyYEk7j20YN45EnCVfnbmTQyuXfoZR/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-block py-3 px-8 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] 
