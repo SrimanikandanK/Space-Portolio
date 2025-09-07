@@ -25,7 +25,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Frontend Developer Portfolio
+            Software Developer Portfolio
           </h1>
         </motion.div>
 
@@ -46,13 +46,13 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg md:text-xl text-gray-300 my-5 max-w-[600px] leading-relaxed font-light"
         >
-          I&apos;m a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 font-semibold">Frontend Developer</span> with 3 + years of experience, specializing in creating <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500 font-semibold">engaging web experiences</span>. 
+          I&apos;m a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 font-semibold">Software Developer</span> with 4 + years of experience, specializing in creating <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500 font-semibold">engaging web experiences</span>. 
           I&apos;ve worked with <span className="text-yellow-400 font-medium">prestigious clients</span> on confidential projects, delivering <span className="text-emerald-400 font-medium">high-quality solutions</span>.
         </motion.p>
         <div className="flex items-center gap-6">
           <motion.a
             variants={slideInFromLeft(1)}
-            href="https://drive.google.com/file/d/1O5gyYEk7j20YN45EnCVfnbmTQyuXfoZR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_Vjy35LZwRciTgA1iKWLnReB4GLa_B7E/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-block py-3 px-8 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] 

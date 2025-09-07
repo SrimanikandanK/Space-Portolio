@@ -29,10 +29,16 @@ const timelineData: TimelineItem[] = [
     "description": "Started my professional journey as an Associate Trainee, where I focused on both front-end and full-stack development. I was involved in the development, maintenance, and optimization of web applications using React. I gained deep experience in writing clean, maintainable code, and implementing UI components that prioritized performance and user experience. My work included addressing API integration challenges and optimizing load times, significantly improving the responsiveness of the applications."
   },
   {
-    "year": "2022 - 2025",
+    "year": "2022 - April 2025",
     "title": "Associate Software Engineer (Orion India Ducen Private Limited)",
-    "duration": "2022 - Present",
+    "duration": "2022 - April 2025",
     "description": "Currently serving as an Associate Software Engineer, I have played a pivotal role in the design and development of scalable, high-performance web applications for top-tier clients, managing critical enterprise-level applications. I’ve been involved in developing features from scratch, focusing on creating a seamless user experience and improving front-end performance. Notably, I optimized API response times by 30%, enhanced the front-end architecture using micro front-end solutions, and implemented performance improvements that resulted in a 40% reduction in load time. Additionally, I have taken the initiative to mentor junior developers, promoting best practices in React development and ensuring the codebase remains efficient and maintainable. My contributions have been integral in delivering projects on time, with a focus on delivering quality code and enhancing overall user satisfaction."
+  },
+  {
+    "year": "April 2025 - Present",
+    "title": "Senior Software Engineer (Photon Interactive)",
+    "duration": "April 2025 - Present",
+    "description": "Currently serving as an Senior Software Engineer, I contributed to the development of Graphite, J.P. Morgan’s flagship Corporate & Investment Banking platform, serving 10,000+ enterprise users worldwide. The platform streamlines payments, reporting, and workflow management for corporate banking clients, with a strong focus on scalability, performance, and security"
   }
   
   // Add more items as needed
